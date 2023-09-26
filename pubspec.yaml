@@ -1,0 +1,55 @@
+name: zpaper
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  lottie: ^2.3.2
+  get: ^4.6.5
+  icon_broken: ^1.1.0
+  font_awesome_flutter: ^10.4.0
+  flutter_blurhash: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/categorise/
+    - assets/images/categorise/art/
+    - assets/images/categorise/anime/
+    - assets/images/categorise/astronomi/
+    - assets/images/categorise/brands/
+    - assets/images/categorise/cars/
+    - assets/images/categorise/cartons/
+    - assets/images/categorise/motors/
+    - assets/images/categorise/movie/
+    - assets/images/categorise/people/
+    - assets/images/categorise/skye/
+    - assets/images/categorise/sports/
+    - assets/lottie/
+
+  fonts:
+    - family: SF-Pro-Display
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Bold.ttf
+
+    - family: SF-Pro-Display-Semibold
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Semibold.ttf
+
+    - family: SF-Pro-Display-Regular
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Regular.otf
